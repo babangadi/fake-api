@@ -1,11 +1,40 @@
 {
-  "posts": [
+  "navigation": [
     {
-      "id": 1,
-      "title": "hello"
+      "title": "Home",
+      "icon": "",
+      "url": "/",
+      "new_tab": false
+    },
+    {
+      "title": "Website Development",
+      "icon": "",
+      "url": "/website-development",
+      "new_tab": false
+    },
+    {
+      "title": "360 Virtual Tour",
+      "icon": "",
+      "url": "/360-virtual-tour",
+      "new_tab": false
+    },
+    {
+      "title": "Article",
+      "icon": "",
+      "url": "/article",
+      "new_tab": false
+    },
+    {
+      "title": "Contact Us",
+      "icon": "",
+      "url": "/contact",
+      "new_tab": false
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "meta": {
+    "desc": "",
+    "title": "",
+    "canonical": ""
+    
   }
 }
