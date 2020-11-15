@@ -1,40 +1,125 @@
 {
-  "navigation": [
-    {
-      "title": "Home",
-      "icon": "",
-      "url": "/",
-      "new_tab": false
+  "navigation": {
+    "header": {
+      "main":   [
+        {
+          "title": "Home",
+          "icon": "",
+          "url": "/",
+          "new_tab": false
+        },
+        {
+          "title": "Website Development",
+          "icon": "",
+          "url": "/website-development",
+          "new_tab": false,
+          "sub_menu": [
+            {
+              "title": "Website Development",
+              "icon": "",
+              "url": "/website-development",
+              "new_tab": false
+            }
+          ]
+        },
+        {
+          "title": "360 Virtual Tour",
+          "icon": "",
+          "url": "/360-virtual-tour",
+          "new_tab": false
+        },
+        {
+          "title": "Article",
+          "icon": "",
+          "url": "/article",
+          "new_tab": false
+        },
+        {
+          "title": "Contact Us",
+          "icon": "",
+          "url": "/contact",
+          "new_tab": false
+        }
+      ],
+      "sub": []
     },
-    {
-      "title": "Website Development",
-      "icon": "",
-      "url": "/website-development",
-      "new_tab": false
-    },
-    {
-      "title": "360 Virtual Tour",
-      "icon": "",
-      "url": "/360-virtual-tour",
-      "new_tab": false
-    },
-    {
-      "title": "Article",
-      "icon": "",
-      "url": "/article",
-      "new_tab": false
-    },
-    {
-      "title": "Contact Us",
-      "icon": "",
-      "url": "/contact",
-      "new_tab": false
+    "footer": {
+      "main":   [
+        {
+          "title": "Website Development",
+          "icon": "",
+          "url": "/website-development",
+          "new_tab": false
+        },
+        {
+          "title": "360 Virtual Tour",
+          "icon": "",
+          "url": "/360-virtual-tour",
+          "new_tab": false
+        }
+      ]
     }
-  ],
+  },
+
+
   "meta": {
-    "desc": "",
-    "title": "",
-    "canonical": ""
-    
+    "head": {
+      "canonical": "https://artendev.com/",
+      "title": "artendev.com - Jasa Pembuatan Website &amp; 360 Virtual Tour",
+      "keywords": "",
+      "desc": "Jasa pembuatan website untuk pribadi, organisasi, pendidikan dan bisnis",
+      "robot": "index, follow, noodp",
+      "rating": "general",
+      "revisit_after": "7 days",
+      "msvalidate_01": "",
+      "alexa_verify_id": "",
+      "fb_admins": "",
+      "fb_app_id": "",
+      "site_name": "https://artendev.com",
+
+      "theme_color": "",
+      "schema": "{ \"@context\": \"http:\/\/www.schema.org\", \"@type\": \"WebSite\", \"name\": \"artendev\", \"alternateName\": \"artendev.com\", \"url\": \"https:\/\/artendev.com\" }, { \"@context\": \"schema.org\", \"@type\": \"CreativeWork\", \"headline\": \"Membuat Website dengan Mudah dan Murah\", \"keywords\": \"membuat website, cara membuat website, buat website, pembuatan website\", \"text\": \"Bikin web lebih mudah dengan jasa pembuatan website dari IDwebhost. Customer tidak perlu ribet dengan proses pembuatannya. IDwebhost memastikan website 2 hari langsung jadi dan bisa digunakan. Dapatkan harga termurah hanya Rp 49.900\/bulan. GRATIS domain dan hosting selamanya!\", \"thumbnailUrl\": \"idwebhost.com\/themes\/freshblue\/images\/landingpage\/d.png\" }, { \"@context\": \"http:\/\/schema.org\", \"@graph\": [ { \"@context\": \"https:\/\/schema.org\", \"@type\": \"SiteNavigationElement\", \"@id\": \"https:\/\/artendev.com\", \"name\": \"\", \"url\": \"https:\/\/artendev.com\" }, { \"@context\": \"https:\/\/schema.org\", \"@type\": \"SiteNavigationElement\", \"@id\": \"https:\/\/artendev.com\", \"name\": \"About Us\", \"url\": \"https:\/\/artendev.com\/about\" }, { \"@context\": \"https:\/\/schema.org\", \"@type\": \"SiteNavigationElement\", \"@id\": \"https:\/\/artendev.com\", \"name\": \"Our Services\", \"url\": \"https:\/\/artendev.com\/services\" }, { \"@context\": \"https:\/\/schema.org\", \"@type\": \"SiteNavigationElement\", \"@id\": \"https:\/\/artendev.com\", \"name\": \"Portfolio\", \"url\": \"https:\/\/artendev.com\/our-work\" }, { \"@context\": \"https:\/\/schema.org\", \"@type\": \"SiteNavigationElement\", \"@id\": \"https:\/\/artendev.com\", \"name\": \"Contact Us\", \"url\": \"https:\/\/artendev.com\/contact\" } ] }",
+
+      "google_tag_manager": "(function(w, d, s, l, i){ w[l] = w[l] || []; w[l].push({ 'gtm.start':new Date().getTime(), event:'gtm.js'}); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l:''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);})(window, document, 'script', 'dataLayer', 'GTM-TBB4JFM');",
+
+      "twitter": {
+        "card": "summary",
+        "image": "https://artendev.com/assets/images/repository/meta-default.png",
+        "image_alt": "artendev.com - Jasa Pembuatan Website &amp; 360 Virtual Tour"
+      },
+      "og": {
+        "type": "website",
+        "image": "https://artendev.com/assets/images/repository/meta-default.png",
+        "locale": "id_ID",
+        "locale_alternate": "en_US"
+      }
+    },
+
+    "profile": {
+      "name": "",
+      "address": "", 
+      "phone": "",
+      "whatsapp": "",
+      "whatsapp_message": "",
+      "hotline": "",
+      "fax": "",
+      "email": "", 
+      "copyright": "",
+      "google_maps": "",
+      "logo": {
+        "main": {
+          "default": "",
+          "small": ""
+        }
+      }
+    },
+
+    "social_media": {
+      "facebook": "",
+      "twitter": "",
+      "youtube": "",
+      "instagram": "",
+      "linked_in": ""
+    }
   }
 }
